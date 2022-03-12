@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes in Css</title>
+    <style>
+         /*Class selector*/
+         .c1.c2{
+             color: blueviolet;
+         }
+         /*Id selector*/
+         #i_am_one{
+             color: aqua;
+         }
+         /*Attribute selector*/
+         input[value='select me']{
+              background-color: blue;
+         }
+    </style>
+</head>
+<body>
+    <!--select only heading 1-->
+    <h1 class="c1 c2">I am Heading 1</h1>
+
+
+
+
+<h2 class="c2">I am Heading 2</h2>
+
+
+
+
+<p class="c1">I am Paragraph</p>
+
+<!--Id selector-->
+<p class="1">Random</p>
+<p class="1">Random</p>
+<p class="1">Random</p>
+<p class="2" id="i_am_one">select me</p>
+<p class="2">Random</p>
+<p class="2">Random</p>
+
+<!--Atrribute selector-->
+<!--select input element select me and make its bg blue-->
+<form>
+    <input type="button" value="Click Me">
+    <input type="button" value="select me">
+</form>
+
+</body>
+</html>
